@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F5F5F5;
+  --foreground: #141c25;
+  --font-poppins: var(--font-be-vietnam-pro);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Colors */
+  --color-deep-academy: #183AD6;
+  --color-secondary: #006496;
+  --color-on-secondary-fixed-variant: #004b72;
+  --color-inverse-surface: #28313b;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-fixed-variant: #004e5f;
+  --color-on-background: #141c25;
+  --color-text-primary: #000000;
+  --color-tertiary: #00576a;
+  --color-on-secondary: #ffffff;
+  --color-success-green: #39B54A;
+  --color-primary-fixed: #dee1ff;
+  --color-surface-container-low: #edf4ff;
+  --color-surface-white: #FFFFFF;
+  --color-on-error: #ffffff;
+  --color-surface: #f7f9ff;
+  --color-secondary-container: #4db6fe;
+  --color-surface-container-high: #e0e9f6;
+  --color-inverse-on-surface: #e9f1fe;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-tertiary-container: #c0eeff;
+  --color-surface-bright: #f7f9ff;
+  --color-on-primary-fixed: #001159;
+  --color-text-secondary: #111111;
+  --color-on-secondary-container: #00456a;
+  --color-on-primary-fixed-variant: #0032c4;
+  --color-on-primary-container: #e4e6ff;
+  --color-on-surface: #141c25;
+  --color-inverse-primary: #bac3ff;
+  --color-on-surface-variant: #444655;
+  --color-error: #ba1a1a;
+  --color-bright-cyan: #00DEDF;
+  --color-surface-dim: #d2dbe7;
+  --color-surface-container: #e6effb;
+  --color-tertiary-fixed-dim: #70d3f2;
+  --color-tertiary-fixed: #b3ebff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-surface-tint: #2c4ddf;
+  --color-background-slate: #F5F5F5;
+  --color-secondary-fixed: #cce5ff;
+  --color-on-secondary-fixed: #001e31;
+  --color-surface-variant: #dae3f0;
+  --color-surface-container-highest: #dae3f0;
+  --color-primary: #133cd1;
+  --color-primary-fixed-dim: #bac3ff;
+  --color-outline: #747687;
+  --color-tertiary-container: #007189;
+  --color-border-light: #D5D8DC;
+  --color-outline-variant: #c4c5d8;
+  --color-error-red: #CC1818;
+  --color-secondary-fixed-dim: #91cdff;
+  --color-on-tertiary-fixed: #001f27;
+  --color-primary-container: #3858e9;
+  --color-on-primary: #ffffff;
+
+  /* Spacing */
+  --spacing-base: 4px;
+  --spacing-gutter: 24px;
+  --spacing-xs: 8px;
+  --spacing-margin-desktop: 32px;
+  --spacing-xl: 36px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-section: 52px;
+  --spacing-margin-mobile: 16px;
+
+  /* Border Radius */
+  --radius: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+
+  /* Font Families */
+  --font-body-sm: var(--font-poppins);
+  --font-headline-lg: var(--font-poppins);
+  --font-button-lg: var(--font-poppins);
+  --font-headline-lg-mobile: var(--font-poppins);
+  --font-caption: var(--font-poppins);
+  --font-nav-link: var(--font-poppins);
+  --font-input-text: var(--font-poppins);
+  --font-display-hero: var(--font-poppins);
+  --font-button-std: var(--font-poppins);
+  --font-headline-sm: var(--font-poppins);
+  --font-headline-md: var(--font-poppins);
+  --font-body-std: var(--font-poppins);
+  
+  /* Font Sizes */
+  --text-body-sm: 13px;
+  --text-body-sm--line-height: 13px;
+  --text-body-sm--font-weight: 500;
+  
+  --text-headline-lg: 30px;
+  --text-headline-lg--line-height: 42.6px;
+  --text-headline-lg--font-weight: 700;
+  
+  --text-button-lg: 18px;
+  --text-button-lg--line-height: 23.4px;
+  --text-button-lg--font-weight: 600;
+  
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 32px;
+  --text-headline-lg-mobile--font-weight: 700;
+  
+  --text-caption: 13px;
+  --text-caption--line-height: 13px;
+  --text-caption--font-weight: 400;
+  
+  --text-nav-link: 13px;
+  --text-nav-link--line-height: 25px;
+  --text-nav-link--font-weight: 500;
+  
+  --text-input-text: 16px;
+  --text-input-text--line-height: 20px;
+  --text-input-text--font-weight: 100;
+  
+  --text-display-hero: 50px;
+  --text-display-hero--line-height: 62px;
+  --text-display-hero--font-weight: 600;
+  
+  --text-button-std: 16px;
+  --text-button-std--line-height: 20.8px;
+  --text-button-std--font-weight: 600;
+  
+  --text-headline-sm: 13px;
+  --text-headline-sm--line-height: 26px;
+  --text-headline-sm--font-weight: 600;
+  
+  --text-headline-md: 18px;
+  --text-headline-md--line-height: 27px;
+  --text-headline-md--font-weight: 600;
+  
+  --text-body-std: 14px;
+  --text-body-std--line-height: 22.4px;
+  --text-body-std--font-weight: 500;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), sans-serif;
+}
